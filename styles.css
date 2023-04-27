@@ -1,0 +1,56 @@
+/* Header Style */
+
+.box {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-family: 'Bruno Ace SC', cursive;
+    margin: 0 auto;
+}
+
+.box h1 {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.box img {
+    width: 80px;
+    height: 80px;
+    box-shadow: -5px 5px 5px 5px black;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+/* Content Style */
+
+main {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+/* Footer Style */
+
+footer {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background: gray;
+    height: 87px;
+}
+
+footer p {
+    color: black;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+footer img {
+    width: 80px;
+    height: 80px;
+    padding: 3px 3px 3px 3px;
+}
