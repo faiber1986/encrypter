@@ -28,19 +28,24 @@
 
         <section class="text">
 
-            <textarea name="text-input" id="text-input" cols="60" rows="10" placeholder="Write your text here"></textarea>
-            <p>Note: only lowercase letters without accents</p>
+            <textarea class="text-input" name="textInput" id="textInput" cols="60" rows="10" placeholder="Write your text here"></textarea>
+            <p>Note: Text must be without accents</p>
 
         </section>
 
-            <button class="encrypt">ENCRYPT</button>
-            <button class="decrypt">DECRYPT</button>
+        <section class="buttons">
+
+            <button class="encrypt" type="button" onClick="encrypt()">Encrypt</button>
+            <button class="decrypt" type="button" onClick="decrypt()">Decrypt</button>
+
+        </section>
 
         <section>
 
-            
-        </section>
+            <textarea class="text-output" name="textOutput" id="textOutput" cols="60" rows="10" ></textarea>
 
+        </section>
+    
     </main>
 
 

@@ -25,18 +25,75 @@
 /* Content Style */
 
 main {
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
+    height: 440px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+textarea::placeholder {
+    text-align: center;
+}
+
+main p {
+    font-size: x-small;
+}
+
+.encrypt {
+    background: rgb(52, 52, 151);
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+}
+
+.decrypt {
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+}
+
+.encrypt:hover {
+    color: black;
+    background: white;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.decrypt:hover {
+    color: black;
+    background: white;
+    cursor: pointer;
+    transition: 2s all;
+}
+
+.encrypt:active {
+    color: black;
+    background: green;
+}
+
+.decrypt:active {
+    color: black;
+    background: green;
+}
+
+section {
+    margin: 10px 10px 10px 10px;
 }
 
 /* Footer Style */
 
 footer {
-    width: 100%;
+    width: 100vw;
     display: flex;
-    position: relative;
+    position: absolute;
+    margin-left: -8px;
     justify-content: center;
     background: gray;
     height: 87px;
